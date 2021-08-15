@@ -286,7 +286,7 @@ html, body{
     border: 2px solid #202020;
     font-size: 20px;
     letter-spacing: 2px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
@@ -295,6 +295,7 @@ html, body{
     -moz-transition: all 0.20s;
     transition: all 0.20s;
     border-radius: 10px;
+    
 }
 
 .btn a{
@@ -313,9 +314,9 @@ html, body{
 .btn:hover{
     background-color: #45A29E ;
     color: white;
-    -webkit-transition: all 0.25s;
-    -moz-transition: all 0.25s;
-    transition: all 0.25s;
+    -webkit-transition: all 0.20s;
+    -moz-transition: all 0.20s;
+    transition: all 0.20s;
   }
   
   .btn:active:after {
@@ -384,5 +385,6 @@ html, body{
 .multi-notes a:hover{
     color: #45A29E;
 }
+
 
 
