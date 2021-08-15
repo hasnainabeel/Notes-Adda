@@ -72,7 +72,7 @@ html, body{
 
 .main-header{
     background-color: white;
-    background-image: url(./images/headBackground.jpeg);
+    background-image: url(/images/headBackground.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     position: sticky;
