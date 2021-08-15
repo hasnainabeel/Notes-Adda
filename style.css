@@ -72,7 +72,7 @@ html, body{
 
 .main-header{
     background-color: white;
-    background-image: url(./images/headBackground.jpeg);
+    /* background-image: url(/images/headBackground.jpeg); */
     background-blend-mode: multiply;
     background-size: cover;
     position: sticky;
@@ -89,7 +89,8 @@ html, body{
 }
 
 .section-img {
-    background: rgb(0,0,0,0.4) url(/img/three.jpeg);
+    background: rgb(0,0,0,0.4) url(./img/three.jpeg);
+    /* background: rgb(0,0,0,0.4) url(/img/three.jpeg); */
     background-size: cover;
     background-blend-mode: darken;
 }
