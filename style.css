@@ -99,7 +99,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
     height: 550px;
 }
@@ -118,6 +118,8 @@ html, body{
     font-size: 40px;
     text-align: center;
     font-weight: 200;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-white{
