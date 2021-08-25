@@ -47,7 +47,7 @@ html, body{
 
 .nav a{
     display: inline-block;
-    padding: .2em .4em;
+    padding: 8px 15px;
     color: rgba(0, 0, 0, 0.904);
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ html, body{
 
 .main-nav{
     text-align: center;
-    font-size: 1.7em;
+    font-size: 25px;
     font-weight: lighter;
     /* border-bottom: 1px solid rgba(255, 255, 255, .3); */
 }
@@ -130,11 +130,11 @@ html, body{
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 1.5em;
+    padding: 0 25px;
 }
 
 .content-main{
-    padding: 3em 0;
+    padding: 70px 0;
     text-align: center;
     border-bottom: 1px solid #c5c6c7;
 }
@@ -154,16 +154,14 @@ html, body{
 .content-main li{
     display: inline;
     text-align: center;
-    /* padding: 1.4em; */
     margin: 30px;
-    /* padding: 1.4em 1.4em 0; */
-    font-size: 1.3em;
     color: #66fcf1;
 }
 
 .content-main a{
     display: inline-flex;
     margin: 20px;
+    font-size: 22px;
     text-align: center;
     text-decoration: none;
     color: #66fcf1;
@@ -178,19 +176,17 @@ html, body{
     color: #45A29E;
 }
 
-.content-goto{
-    /* padding-top: 4em; */
-    font-size: 1.2em;
-}
+/* .content-goto{
+    padding-top: 4em;
+    font-size: 1;
+} */
 
-.content-goto h2{
+/* .content-goto h2{
     font-size: 1.5em;
-}
+} */
 
 .content-goto a{
-    /* font-size: 1.5em; */
-    text-decoration: none;
-    color:#66fcf1;
+    font-size: 25px;
 }
 
 .bg-dark{
@@ -235,16 +231,17 @@ html, body{
 .heading{
     color: white;
     font-weight: bold;
+    font-size: 35px;
 }
 
 .about{
-    padding: 3em 0 6em 0;
-    font-size: 1.2em;
+    padding: 60px 0 120px 0;
 }
 
 .content-para{
-    padding: 3%;
-    font-size: 1.2em;
+    padding: 35px;
+    font-size:22px;
+    font-style: italic;
 }
 
 .form {
@@ -294,9 +291,9 @@ html, body{
     cursor: pointer;
     display: inline-block;
     margin: 0;
-    -webkit-transition: all 0.20s;
-    -moz-transition: all 0.20s;
-    transition: all 0.20s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    transition: all 0.25s;
     border-radius: 10px;
     
 }
