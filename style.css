@@ -105,10 +105,12 @@ html, body{
 }
 
 .intro{
-    width: 80%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
