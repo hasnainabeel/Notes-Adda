@@ -393,3 +393,20 @@ html, body{
 
 
 
+.container-scm{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text-scm{
+    font-weight: 100;
+    font-size: 28px;
+    color: #fafafa;
+  }
+
+.dud {
+    color: #757575;
+}

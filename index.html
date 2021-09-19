@@ -256,6 +256,36 @@
             <button class="btn" type="submit">Submit</button>
         </form>
     </section> -->
+
+    <section class=" content-main">
+        <div>
+            <h2 class="heading">OUR CONTRIBUTORS</h2>
+        </div>
+        <div class="container-scm">
+        <div class="text-scm"></div>
+        </div>
+        <script src="./scramble.js"></script>
+        <script>
+              
+              
+        const phrases = ['MOHAMMED ZAKARIYYA', 'SAMEEHA JALEEL', 'UMAR SHOAIB', 'BUSHRA RAAHAT', 'ABDUL RAHMAN' , 'TAHER ANWAR','AIRA FATIMA', 'SALAHUDDIN', 'AMIR MUSTAFA', 'HABEEB ULLAH', 'RUKHSANA WAJAHATH', 'SHAREEQ'];
+        const el = document.querySelector('.text-scm');
+        const fx = new TextScramble(el);
+        let counter = 0;
+          
+        const next = () => {
+            fx.setText(phrases[counter]).then(() => {
+                setTimeout(next, 800);
+            });
+            counter = (counter + 1) % phrases.length;
+        };
+          
+            next();
+        </script>
+    </section>
+
+
+
     <section class="bg-dark content-main content-main-last">
         <div class="container">
             <h2 class="heading heading-left">Want to help us by sharing notes you have ?</h2>
