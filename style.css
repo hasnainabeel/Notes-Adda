@@ -90,7 +90,7 @@ html, body{
 }
 
 .section-img {
-    background: rgb(0,0,0,0.4) url(./img/background.jpeg);
+    background: rgb(0,0,0,0.4) url(https://source.unsplash.com/1600x900/?study);
     /* background: rgb(0,0,0,0.4) url(/img/three.jpeg); */
     background-size: cover;
     background-blend-mode: darken;
@@ -222,6 +222,13 @@ html, body{
     text-align: center;
     margin: 0;
     font-weight: normal;
+}
+
+.des a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
