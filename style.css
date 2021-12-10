@@ -94,6 +94,8 @@ sup{
 
 .section-img {
     background: rgb(0,0,0,0.4) url(https://source.unsplash.com/1600x900/?study);
+    height: 70rem;
+    width: auto;
     background-size: cover;
     background-blend-mode: darken;
 }
