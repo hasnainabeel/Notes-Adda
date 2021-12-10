@@ -228,7 +228,12 @@ sup{
     font-weight: normal;
 }
 
-
+.des a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /* 
 .des:first-child{
