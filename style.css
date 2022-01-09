@@ -20,6 +20,7 @@ h2, h3{
 }
 
 html, body{
+    scroll-behavior: smooth;
     background-color: #0b0c10;
     font-size: 62.5%;
 
